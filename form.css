@@ -23,14 +23,18 @@
     -webkit-appearance: none;
 }
   .r1{
-    height: 70px;
-    width: 73px;
+    height: 50px;
+    width: 53px;
     border: 2px solid #18f98d;
     position: relative;
     margin-left: -16px;
     padding: 5px;
     border-radius: 10px;
     
+  }
+
+  .t1{
+      font-size: 11px;
   }
   label:hover
   {
@@ -43,7 +47,7 @@
   }
   p{
 
-      background-color:#495057;
+      
       width:fit-content;
   }
   .res{
@@ -94,14 +98,25 @@
   @media (min-width: 576px) {
     .container {
       max-width: 540px;
+      
     }
+    
   }
   
   @media (min-width: 976px) {
     .container {
       max-width: 920px;
     }
-  }
+    .r1{
+        height: 60px;
+        width: 63px;
+        border: 2px solid #18f98d;
+        position: relative;
+        margin-left: -16px;
+        padding: 5px;
+        border-radius: 10px;
+        
+      }
   
   .header {
     padding: 4.5rem;
@@ -115,7 +130,9 @@
     padding-top: 5rem;
     margin-right: 6%;
   }
-  
+  ;
+
+    }
   .column-image {
     float: left;
     width: 40%;
