@@ -2,7 +2,7 @@ var questions = [
     {question:"What's your first name?"},
     {question:"What's your last name?"},
     {question:"What's your email?", pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/},
-    {question:"Create your password", type: "password"},
+    
     
   ]
   
@@ -61,7 +61,7 @@ var questions = [
       
       // add the h1 at the end with the welcome text
       var h1 = document.createElement('h1')
-      h1.appendChild(document.createTextNode('Welcome ' + questions[3].value + '!'))
+      h1.appendChild(document.createTextNode('Welcome ' + questions[0].value +" "+ questions[1].value + '!'))
     
       setTimeout(function() {
         
@@ -70,7 +70,7 @@ var questions = [
         
       }, 100)
       setTimeout(function() {
-        alert("xnjcndjcnjn")
+        alert("Are you Ready to fill Survey")
         window.location.href="form.html"
     },2000) 
      

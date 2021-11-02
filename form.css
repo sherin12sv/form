@@ -13,8 +13,9 @@
     font-size: 1.6rem;
     line-height: 1.4;
     color: black;
+    
     margin: 0;
-    background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(246,247,252,1) 100%);
+    background: linear-gradient(0deg, #fc030391 0%, rgba(246,247,252,1) 100%);
   }
 
   input[type="radio"]{
@@ -85,7 +86,7 @@
   .container {
     width: 100%;
     margin: 6rem auto 6rem auto;
-    box-shadow: 1 0.2rem 1.3rem 0.5rem rgb(0, 0, 0);
+    box-shadow:0 0.2rem 5.5rem 0.5rem rgb(0 255 255);
     border-radius: 0.5rem;
     background-color:#006aec48;
   }
