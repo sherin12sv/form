@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="column-header">
+            <h1 id="title">Learner Experience Survey</h1>
+              <p id="description">We would like to know a little more about your experience with the course. Thank you for taking the time to help us improve the platform.</p>
+            </div>
+      
+            <div class="column-image">
+              <div id="image-div">
+                <img src="https://raw.githubusercontent.com/sfoteini/responsive-web-design-freeCodeCamp/fa56b6ef1ca73e59e52153b0aae657717627adcf/survey-form/images/survey_icon.svg" width="400" height="400" alt="Survey form icon">
+              </div>
+          </div>
+        </div>
+        
+        <form id="survey-form">
+          
+          <div class="form-group">
+            <p>Overall, how would you rate the course?</p>
+            <div class="res">
+              <input
+                name="user-rate"
+                value="Strongly Agree"
+                type="radio"
+                class="input-radio"
+                id="a"
+                
+        /><label class="r1" for="a">Strongly Agree</label>
+            
+              <input
+                name="user-rate"
+                value="very-good"
+                type="radio"
+                class="input-radio"
+                id="b"
+              /> <label class="r1" for="b">Agree</label>
+            
+            
+              <input
+                name="user-rate"
+                value="Average"
+                type="radio"
+                class="input-radio"
+                id="c"
+                /> <label class="r1" for="c">Average</label>
+            
+            
+              <input
+                name="user-rate"
+                value="Disagree"
+                type="radio"
+                class="input-radio"
+                id="d"
+                /> <label class="r1" for="d">Disagree</label>
+            
+            
+              <input
+                name="user-rate"
+                value="Strongly Disagree"
+                type="radio"
+                class="input-radio"
+                id="e"
+                /> <label class="r1" for="e">Strongly Disagree</label>
+            </div>
+            </div>
+          
+
+         
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      
+       <section class="footer">
+          <p> Design & Development - Foteini Savvidou </p>
+        </section>
+</body>
+</html>
