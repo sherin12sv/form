@@ -63,7 +63,7 @@ body {
   #inputContainer {
     position: relative;
     opacity: 0;
-    width: 350px;
+    width: 300px;
     margin-top: 25px;
     transition: opacity .3s ease-in-out;
   }
